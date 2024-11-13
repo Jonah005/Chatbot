@@ -1,0 +1,495 @@
+{
+    "feedback": [
+        {
+            "user_input": "hello",
+            "better_response": "hello How can I help you",
+            "ratings": []
+        },
+        {
+            "user_input": "hello",
+            "better_response": "Hello how can I help you",
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "1"
+                },
+                {
+                    "response": 1,
+                    "rating": "1"
+                },
+                {
+                    "response": 2,
+                    "rating": "1"
+                },
+                {
+                    "response": 3,
+                    "rating": "1"
+                },
+                {
+                    "response": 4,
+                    "rating": "1"
+                }
+            ]
+        },
+        {
+            "user_input": "hello",
+            "better_response": "hello how can I help you",
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "1"
+                },
+                {
+                    "response": 1,
+                    "rating": "1"
+                },
+                {
+                    "response": 2,
+                    "rating": "1"
+                },
+                {
+                    "response": 3,
+                    "rating": "1"
+                },
+                {
+                    "response": 4,
+                    "rating": "1"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates.Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section.",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "5"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates.Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section.",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "5"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "5"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the Credit Application section. ",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "5"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the Credit Application section.",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "5"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the Credit Application section.",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "5"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "7"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "4"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and  Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "7"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "7"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "7"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "3"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "1"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "1"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "2"
+                }
+            ]
+        },
+        {
+            "user_input": "How do I track my order and Can I get a credit option for my order",
+            "better_response": "Use Order Tracking in the web app for real-time updates. Credit options are available for eligible customers after credit checks. Apply via the  Credit Application   section",
+            "correct_tags": [
+                "order_tracking",
+                "credit_option"
+            ],
+            "ratings": [
+                {
+                    "response": 0,
+                    "rating": "7"
+                }
+            ]
+        }
+    ]
+}

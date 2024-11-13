@@ -1,0 +1,138 @@
+2024-11-12 14:27:58,347 - DEBUG - Loaded environment variables
+2024-11-12 14:27:58,365 - INFO - Connected to the database.
+2024-11-12 14:27:58,365 - INFO - Using device: cpu
+2024-11-12 14:27:58,366 - DEBUG - Before model loading - Memory Usage: 379.50 MB
+2024-11-12 14:27:58,368 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:27:58,623 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:27:58,855 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:27:59,088 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:27:59,319 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:30:23,062 - DEBUG - Loaded environment variables
+2024-11-12 14:30:23,074 - INFO - Connected to the database.
+2024-11-12 14:30:23,074 - INFO - Using device: cpu
+2024-11-12 14:30:23,074 - DEBUG - Before model loading - Memory Usage: 378.99 MB
+2024-11-12 14:30:23,076 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:30:23,364 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:30:23,610 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:30:23,824 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:30:24,062 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:30:38,484 - DEBUG - Loaded environment variables
+2024-11-12 14:30:38,497 - INFO - Connected to the database.
+2024-11-12 14:30:38,497 - INFO - Using device: cpu
+2024-11-12 14:30:38,497 - DEBUG - Before model loading - Memory Usage: 379.65 MB
+2024-11-12 14:30:38,499 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:30:38,785 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:30:39,009 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:30:39,224 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:30:39,448 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:31:53,711 - DEBUG - Loaded environment variables
+2024-11-12 14:31:53,724 - INFO - Connected to the database.
+2024-11-12 14:31:53,724 - INFO - Using device: cpu
+2024-11-12 14:31:53,724 - DEBUG - Before model loading - Memory Usage: 378.73 MB
+2024-11-12 14:31:53,726 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:31:54,005 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:31:54,243 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:31:54,466 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:31:54,686 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:33:34,538 - DEBUG - Loaded environment variables
+2024-11-12 14:33:34,551 - INFO - Connected to the database.
+2024-11-12 14:33:34,551 - INFO - Using device: cpu
+2024-11-12 14:33:34,553 - DEBUG - Before model loading - Memory Usage: 379.49 MB
+2024-11-12 14:33:34,553 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:33:34,832 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:33:35,055 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:33:35,272 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:33:35,494 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:36:11,235 - DEBUG - Loaded environment variables
+2024-11-12 14:36:11,254 - INFO - Connected to the database.
+2024-11-12 14:36:11,254 - INFO - Using device: cpu
+2024-11-12 14:36:11,255 - DEBUG - Before model loading - Memory Usage: 378.88 MB
+2024-11-12 14:36:11,256 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:36:11,534 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:36:11,757 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:36:11,970 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:36:12,197 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:37:00,073 - DEBUG - Loaded environment variables
+2024-11-12 14:37:00,085 - INFO - Connected to the database.
+2024-11-12 14:37:00,085 - INFO - Using device: cpu
+2024-11-12 14:37:00,085 - DEBUG - Before model loading - Memory Usage: 379.27 MB
+2024-11-12 14:37:00,086 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:37:00,348 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:37:00,567 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:37:00,790 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:37:01,015 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:38:59,824 - DEBUG - Loaded environment variables
+2024-11-12 14:38:59,853 - INFO - Connected to the database.
+2024-11-12 14:38:59,853 - INFO - Using device: cpu
+2024-11-12 14:38:59,853 - DEBUG - Before model loading - Memory Usage: 379.37 MB
+2024-11-12 14:38:59,857 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:39:00,136 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:39:00,365 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:39:00,583 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:39:00,817 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:41:19,975 - DEBUG - Loaded environment variables
+2024-11-12 14:41:19,993 - INFO - Connected to the database.
+2024-11-12 14:41:19,995 - INFO - Using device: cpu
+2024-11-12 14:41:19,995 - DEBUG - Before model loading - Memory Usage: 378.92 MB
+2024-11-12 14:41:19,996 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 14:41:20,282 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:41:20,508 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 14:41:20,723 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 14:41:20,948 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 16:24:34,546 - DEBUG - Loaded environment variables
+2024-11-12 16:24:34,614 - INFO - Connected to the database.
+2024-11-12 16:24:34,615 - INFO - Using device: cuda
+2024-11-12 16:24:34,615 - DEBUG - Before model loading - Memory Usage: 800.66 MB
+2024-11-12 16:24:34,617 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 16:24:34,900 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 16:24:35,116 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 16:24:35,353 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 16:24:35,575 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 16:24:35,723 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-11-12 16:24:39,455 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/generation_config.json HTTP/11" 307 0
+2024-11-12 16:24:39,690 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+2024-11-12 16:24:39,751 - WARNING - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-11-12 16:24:39,751 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2024-11-12 16:24:39,751 - ERROR - Error during model loading: You can't move a model that has some modules offloaded to cpu or disk.
+2024-11-12 16:30:58,538 - DEBUG - Loaded environment variables
+2024-11-12 16:30:58,551 - INFO - Connected to the database.
+2024-11-12 16:30:58,551 - INFO - Using device: cuda
+2024-11-12 16:30:58,551 - DEBUG - Before model loading - Memory Usage: 800.94 MB
+2024-11-12 16:30:58,553 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 16:30:58,885 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 16:30:59,106 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 16:30:59,334 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 16:30:59,574 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 16:31:03,139 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/generation_config.json HTTP/11" 307 0
+2024-11-12 16:31:03,391 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+2024-11-12 16:31:06,929 - ERROR - Error during model loading: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 3.35 GiB is allocated by PyTorch, and 1.87 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2024-11-12 16:33:35,631 - DEBUG - Loaded environment variables
+2024-11-12 16:33:35,651 - INFO - Connected to the database.
+2024-11-12 16:33:35,651 - INFO - Using device: cuda
+2024-11-12 16:33:35,651 - DEBUG - Before model loading - Memory Usage: 800.48 MB
+2024-11-12 16:33:35,653 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-12 16:33:35,941 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 16:33:36,174 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 16:33:36,395 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-12 16:33:36,614 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-12 16:33:36,849 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-11-12 16:33:38,663 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/generation_config.json HTTP/11" 307 0
+2024-11-12 16:33:38,943 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+2024-11-12 16:33:38,995 - WARNING - Some parameters are on the meta device because they were offloaded to the cpu and disk.
+2024-11-12 16:33:38,995 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2024-11-12 16:33:38,995 - ERROR - Error during model loading: You can't move a model that has some modules offloaded to cpu or disk.
+2024-11-13 11:22:01,567 - DEBUG - Loaded environment variables
+2024-11-13 11:22:01,626 - INFO - Connected to the database.
+2024-11-13 11:22:01,626 - INFO - Using device: cuda
+2024-11-13 11:22:01,628 - DEBUG - Before model loading - Memory Usage: 801.38 MB
+2024-11-13 11:22:01,629 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-11-13 11:22:01,908 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-13 11:22:02,217 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-13 11:22:02,452 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/config.json HTTP/11" 307 0
+2024-11-13 11:22:02,679 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/config.json HTTP/11" 200 0
+2024-11-13 11:22:02,919 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-11-13 11:22:07,565 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7B-hf/resolve/main/generation_config.json HTTP/11" 307 0
+2024-11-13 11:22:07,802 - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-7b-hf/resolve/main/generation_config.json HTTP/11" 200 0
+2024-11-13 11:22:07,862 - WARNING - Some parameters are on the meta device because they were offloaded to the disk and cpu.
+2024-11-13 11:22:07,863 - WARNING - You shouldn't move a model that is dispatched using accelerate hooks.
+2024-11-13 11:22:07,863 - ERROR - Error during model loading: You can't move a model that has some modules offloaded to cpu or disk.

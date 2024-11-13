@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-window"></div>
+        <input id="user-input" placeholder="Ask a question...">
+        <button id="send-btn">Send</button>
+
+        <!-- PDF Upload Section -->
+        <div id="pdf-upload-section">
+            <h3>Upload PDF for New Questions & Answers</h3>
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="pdf-file" name="file" accept="application/pdf">
+                <button type="submit">Upload PDF</button>
+            </form>
+            <p id="upload-response"></p>
+        </div>
+
+        <!-- Feedback section -->
+        <div id="feedback-section" style="display: none;">
+            <h3>Top Responses for Each Sub-query:</h3>
+            <div id="responses"></div>
+            <label for="better-response">Provide a better response for each sub-query (Optional):</label>
+            <textarea id="better-response" placeholder="Enter your improved response here"></textarea>
+            <label for="correct-tags">Correct Tags for each sub-query (Optional, comma-separated):</label>
+            <input id="correct-tags" placeholder="Enter correct tags">
+            <button id="submit-feedback-btn">Submit Feedback</button>
+        </div>
+    </div>
+
+    <script>
+        // Function to send user input to the server
+        document.getElementById("send-btn").onclick = function() {
+            let userInputElement = document.getElementById("user-input");
+            if (userInputElement) {
+                let userInput = userInputElement.value;
+                fetch("/get", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({"msg": userInput})
+                })
+                .then(response => response.json())
+                .then(data => {
+                    let chatWindow = document.getElementById("chat-window");
+                    let responsesDiv = document.getElementById("responses");
+                    if (chatWindow && responsesDiv) {
+                        chatWindow.innerHTML += "<p>You: " + userInput + "</p>";
+                        responsesDiv.innerHTML = '';
+                        data.responses.forEach((response, idx) => {
+                            chatWindow.innerHTML += "<p>Bot: " + response + "</p>";
+                            responsesDiv.innerHTML += `
+                                <div>
+                                    <strong>Sub-query ${idx + 1} Response:</strong> ${response}
+                                    <input type="number" min="1" max="10" id="rating-${idx}" placeholder="Rate (1-10)">
+                                </div>`;
+                        });
+                        document.getElementById("feedback-section").style.display = "block";
+                    }
+                });
+            } else {
+                console.error("User input element not found");
+            }
+        };
+
+        // PDF Upload Handling
+        document.getElementById("upload-form").onsubmit = function(event) {
+            event.preventDefault();
+            const pdfFile = document.getElementById("pdf-file").files[0];
+            const formData = new FormData();
+            formData.append("file", pdfFile);
+
+            fetch("/upload_pdf", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("upload-response").textContent = data.response;
+            });
+        };
+
+        // Submit feedback to the server
+        document.getElementById("submit-feedback-btn").onclick = function() {
+            let betterResponseElement = document.getElementById("better-response");
+            let userInputElement = document.getElementById("user-input");
+            let correctTagsElement = document.getElementById("correct-tags");
+            if (betterResponseElement && userInputElement && correctTagsElement) {
+                let betterResponse = betterResponseElement.value;
+                let userInput = userInputElement.value;
+                let correctTags = correctTagsElement.value.split(',').map(tag => tag.trim());
+                let ratings = [];
+                document.querySelectorAll('[id^="rating-"]').forEach((ratingElement, idx) => {
+                    if (ratingElement.value) {
+                        ratings.push({ "response": idx, "rating": ratingElement.value });
+                    }
+                });
+                fetch("/submit_feedback", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        "user_input": userInput,
+                        "better_response": betterResponse,
+                        "correct_tags": correctTags,
+                        "ratings": ratings
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                });
+            } else {
+                console.error("One or more elements for feedback are missing");
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+{
+    "intents": [
+        {
+            "tag": "place_order_web",
+            "patterns": [
+                "How do I place an order through the web app?"
+            ],
+            "responses": [
+                "Log into the Ultratech web app, select the cement type, specify the quantity, and follow the on-screen instructions to checkout."
+            ]
+        },
+        {
+            "tag": "want_place_order",
+            "patterns": [
+                "I want to place an order."
+            ],
+            "responses": [
+                "To place an order, simply log in to your account, select the cement type, enter the quantity, and proceed to checkout."
+            ]
+        },
+        {
+            "tag": "make_order_online",
+            "patterns": [
+                "How do I make an order online?"
+            ],
+            "responses": [
+                "You can place an order by accessing the Ultratech portal, choosing your cement, and following the instructions to finalize the order."
+            ]
+        },
+        {
+            "tag": "modify_order_place",
+            "patterns": [
+                "Can I modify my order after placing it?",
+                "Is it possible to modify an order?"
+            ],
+            "responses": [
+                "Yes, modifications are possible within a short window before processing starts. Use the 'Modify Order' option in 'Order History.'",
+                "To change your order, visit 'Order History' and select the order you want to modify, but be quick, as processing starts shortly."
+            ]
+        },
+        {
+            "tag": "change_order",
+            "patterns": [
+                "How can I change my order?"
+            ],
+            "responses": [
+                "You can modify your order within a limited time frame after placing it. Go to 'Order History' and choose 'Modify Order.'"
+            ]
+        },
+        {
+            "tag": "cancel_order",
+            "patterns": [
+                "How can I cancel my order?",
+                "Can I cancel my order?",
+                "Is it possible to cancel my order?"
+            ],
+            "responses": [
+                "Go to 'Order History' and select 'Cancel Order' for the specific order. Cancellation may not be possible once dispatch begins.",
+                "To cancel an order, visit 'Order History' and select the 'Cancel Order' option. Please note that orders may not be canceled after dispatch.",
+                "You can cancel your order from 'Order History' by selecting 'Cancel Order,' but it must be done before dispatch."
+            ]
+        },
+        {
+            "tag": "minimum_quantity_require",
+            "patterns": [
+                "What is the minimum quantity required to place an order?",
+                "Is there a minimum order quantity?"
+            ],
+            "responses": [
+                "There is no minimum order quantity.",
+                "You can order any quantity you need; there's no minimum requirement."
+            ]
+        },
+        {
+            "tag": "small_amount_order",
+            "patterns": [
+                "What is the smallest amount I can order?"
+            ],
+            "responses": [
+                "We don't enforce a minimum order quantity, so you're free to order as little or as much as you like."
+            ]
+        },
+        {
+            "tag": "take_process_order",
+            "patterns": [
+                "How long will it take to process my order?",
+                "What is the processing time for an order?",
+                "How long does it take for my order to be processed?"
+            ],
+            "responses": [
+                "Processing usually takes 3-4 hours. You'll be notified upon dispatch.",
+                "Your order should be processed within 3-4 hours, and you'll receive a notification when it's dispatched.",
+                "Orders are typically processed in 3-4 hours, after which you'll be informed about the dispatch status."
+            ]
+        },
+        {
+            "tag": "payment_method_available",
+            "patterns": [
+                "What are the payment methods available for orders?",
+                "What payment options are there?"
+            ],
+            "responses": [
+                "We accept payments through LC, Bank transfer, security cheque, Post-dated cheque, and cash.",
+                "Our available payment methods include LC, bank transfer, security cheque, post-dated cheque, and cash payments."
+            ]
+        },
+        {
+            "tag": "pay_order",
+            "patterns": [
+                "How can I pay for my order?"
+            ],
+            "responses": [
+                "You can pay via LC, Bank transfer, security cheque, Post-dated cheque, or cash."
+            ]
+        },
+        {
+            "tag": "get_credit_option",
+            "patterns": [
+                "Can I get a credit option for my order?"
+            ],
+            "responses": [
+                "Credit options are available for eligible customers after credit checks. Apply via the 'Credit Application' section."
+            ]
+        },
+        {
+            "tag": "credit_available",
+            "patterns": [
+                "Is credit available?"
+            ],
+            "responses": [
+                "You may apply for credit through the 'Credit Application' section, subject to eligibility and credit checks."
+            ]
+        },
+        {
+            "tag": "apply_credit_option",
+            "patterns": [
+                "How do I apply for a credit option?"
+            ],
+            "responses": [
+                "Credit options are offered to eligible clients. Please apply through the designated 'Credit Application' section."
+            ]
+        },
+        {
+            "tag": "track_order",
+            "patterns": [
+                "How do I track my order?",
+                "Can I track my order?"
+            ],
+            "responses": [
+                "Use 'Order Tracking' in the web app for real-time updates.",
+                "Real-time order tracking is available in the app's 'Order Tracking' section."
+            ]
+        },
+        {
+            "tag": "order",
+            "patterns": [
+                "Where is my order?"
+            ],
+            "responses": [
+                "You can check the status of your order using 'Order Tracking' in the app."
+            ]
+        },
+        {
+            "tag": "hello",
+            "patterns": [
+                "Hello",
+                "Hi"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I help?"
+            ]
+        },
+        {
+            "tag": "hello",
+            "patterns": [
+                "Hey there"
+            ],
+            "responses": [
+                "Greetings! How can I assist you with your orders or inquiries?"
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks"
+            ],
+            "responses": [
+                "You're very welcome!",
+                "Glad I could help!"
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Much appreciated"
+            ],
+            "responses": [
+                "You're welcome! Let us know if you have more questions."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "Take care! Feel free to reach out anytime."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "See you later"
+            ],
+            "responses": [
+                "See you next time! Don't hesitate to ask if you have more questions."
+            ]
+        },
+        {
+            "tag": "have_question",
+            "patterns": [
+                "I have a question"
+            ],
+            "responses": [
+                "Of course! Please tell me what you need help with."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?"
+            ],
+            "responses": [
+                "I'd be happy to help! What would you like to know?"
+            ]
+        },
+        {
+            "tag": "need_information",
+            "patterns": [
+                "I need some information"
+            ],
+            "responses": [
+                "Sure! Feel free to ask me anything about our services or products."
+            ]
+        }
+    ]
+}
